@@ -1,1 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pinetour</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="final">
 
+      <section>
+      <div class="HeroImage">
+        <nav>
+          <img class="PinetourLogo" src="./img-logo/pinetourlogo.png" alt="#" />
+          <div class="ActionContainer">
+            <div class="actioncontainer">
+              <div><p>Home</p></div>
+              <div><p>About</p></div>
+              <div><p>Contact</p></div>
+              <img src="./img-svg/user.svg" alt="#" />
+            </div>
+          </div>
+          <div class="Language"><p>EN</p></div>
+        </nav>
+        <div class="TextContainer">
+          <p class="text1">Pure magic</p>
+          <p class="text2">Awaits</p>
+          <p class="text3">2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="LocationContainer">
+        <div class="CardContainer">
+          <div class="card">
+            <img src="./img-card/terkh.png" alt="#" />
+            <div class="Rectangle"></div>
+            <div class="Frame175">
+              <p>
+                Terkhiin tsagaan <br />
+                lake
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img-card/khiid.png" alt="#" />
+            <div class="Rectangle"></div>
+            <div class="Frame175">
+              <p>
+                Amarbayasgalant <br />
+                monastery
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img-card/khuvsgul.png" alt="#" />
+            <div class="Rectangle"></div>
+            <div class="Frame175">
+              <p>Khuvsgul lake</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img-card/khorg.png" alt="#" />
+            <div class="Rectangle"></div>
+            <div class="Frame175">
+              <p>Khorgiin togoo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="RoadmapContainer">
+        <div class="BLUR">
+          <div class="Frame104">
+            <p class="Frame104-text1">Destination of Our Agency</p>
+            <p class="Frame104-text2">Pack Your Bags And Get Ready</p>
+          </div>
+        </div>
+        <div class="Frame173">
+          <div class="Container">
+            <div class="container container1">
+              <div class="LocInfo">
+                <p>Sukhbaatar square</p>
+                <div class="LocDetails">
+                  <img class="pin" src="./img-svg/pin.png">
+                  <p>Ulaanbaatar</p>
+                </div>
+              </div>
+              <div class="DayContainer"><p>DAY 1</p></div>
+            </div>
+            <img class="map-img1" src="./img-mappin/4.png">
+            <div class="container container2">
+              <div class="LocInfo">
+                <p>Khorgiin togoo</p>
+                <div class="LocDetails">
+                  <img class="pin" src="./img-svg/pin.png">
+                  <p>Arkhangai</p>
+                </div>
+              </div>
+              <div class="DayContainer"><p>DAY 2</p></div>
+            </div>
+            <img class="map-img2" src="./img-mappin/5.png">
+            <div class="container container3">
+              <div class="LocInfo">
+                <p>Amarbayasgalant monastery</p>
+                <div class="LocDetails">
+                  <img class="pin" src="./img-svg/pin.png">
+                  <p>Bulgan</p>
+                </div>
+              </div>
+              <div class="DayContainer"><p>DAY 3</p></div>
+            </div>
+            <img class="map-img3" src="./img-mappin/3.png">
+            <div class="container container4">
+              <div class="LocInfo">
+                <p>Terkhiin tsagaan lake</p>
+                <div class="LocDetails">
+                  <img class="pin" src="./img-svg/pin.png">
+                  <p>Arkhangai</p>
+                </div>
+              </div>
+              <div class="DayContainer"><p>DAY 4</p></div>
+            </div>
+            <img class="map-img4" src="./img-mappin/1.png">
+            <div class="container container5">
+              <div class="LocInfo">
+                <p>Khuvsgul lake</p>
+                <div class="LocDetails">
+                  <img class="pin" src="./img-svg/pin.png">
+                  <p>Khuvsgul</p>
+                </div>
+              </div>
+              <div class="DayContainer"><p>DAY 5</p></div>
+            </div>
+            <img class="map-img5" src="./img-mappin/2.png">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="FooterPriceSection">
+        <div class="TitleContainer">
+          <p class="TitleText1">Pricing of Our Agency</p>
+          <p class="TitleText2">Choose A Package Thats Right For You</p>
+        </div>
+        <div class="CardPackage">
+          <div class="card-box">
+            
+            <div class="header">
+              <img class="hearts-logo" src="./img-svg/hearts.png">
+              <p>Budget Package</p>
+            </div>
+            <div class="content">
+              <div class="details">
+                <div class="DETAILS">
+                  <p class="detailstext1">500$</p>
+                  <p class="detailstext2">Essentials Covered</p>
+                </div>
+                <div class="describtion">
+                  <p id="includes-text">Includes:</p>
+                  <div class="describtion-text">
+                    <img class="check-logo" src="./img-svg/check.png">
+                    <p>Group transportation (shared van/bus)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Standard accommodation (yurt or guesthouse)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Guided lake tour</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>1 meal per day (breakfast)</p>
+                  </div>
+                </div>
+              </div>
+              <button class="btn">Select package</button>
+            </div>
+          
+          </div>
+          <div class="card-box">
+
+             <div class="header">
+              <img class="hearts-logo" src="./img-svg/hearts.png">
+              <p>Budget Package</p>
+            </div>
+            <div class="content">
+              <div class="details">
+                <div class="DETAILS">
+                  <p class="detailstext1">800$</p>
+                  <p class="detailstext2">Balanced Adventure</p>
+                </div>
+                <div class="describtion">
+                  <p id="includes-text">Includes:</p>
+                  <div class="describtion-text">
+                    <img class="check-logo" src="./img-svg/check.png">
+                    <p>Comfortable transportation (mini-bus)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Mid-range accom (private yurt or lodge)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Guided lake tour + nearby hiking</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>2 meals per day (breakfast and dinner)</p>
+                  </div>
+                </div>
+              </div>
+              <button class="btn">Select package</button>
+            </div>
+          
+
+          </div>
+          <div class="card-box">
+
+             <div class="header">
+              <img class="hearts-logo" src="./img-svg/hearts.png">
+              <p>Budget Package</p>
+            </div>
+            <div class="content">
+              <div class="details">
+                <div class="DETAILS">
+                  <p class="detailstext1">1200$</p>
+                  <p class="detailstext2">Essentials Covered</p>
+                </div>
+                <div class="describtion">
+                  <p id="includes-text">Includes:</p>
+                  <div class="describtion-text">
+                    <img class="check-logo" src="./img-svg/check.png">
+                    <p>Private transportation (SUV)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Luxury accommodation (lakefront lodge)</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>Guided tours (lake + reindeer herder) experience</p>
+                  </div>
+                  <div class="describtion-text">
+                    <img class="check-logo"  src="./img-svg/check.png">
+                    <p>All meals included (local cuisine)</p>
+                  </div>
+                </div>
+              </div>
+              <button class="btn">Select package</button>
+            </div>
+          
+
+          </div>
+        </div>
+        <div class="FooterSection">
+          <div class="social-link">
+            <div class="SocialLink">
+              <img src="./img-svg/fb.png">
+              <p>  Facebook</p>
+            </div>
+            <div class="SocialLink">
+              <img src="./img-svg/ig.png"> 
+              <p>Instagram</p>
+            </div>
+          </div>
+          <img class="pinetour-logo" src="./img-logo/pinetourlogo.png">
+        </div>
+      </div>
+    </section>
+
+    </div>
+</html>
